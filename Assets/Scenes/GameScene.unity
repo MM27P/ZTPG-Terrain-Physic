@@ -3409,6 +3409,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577512713}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &578131177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3074733868046421220, guid: 72285b191790fa04c92f12f1fff335aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1982377119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578131181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578131177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56a8420875cc5944aa997f6dbc314a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderMaterial: {fileID: 2100000, guid: 853a89dfef3465e4989a383020d277d9, type: 2}
+  crakPositions:
+  - {x: 0.4, y: 0.3}
+  - {x: 0.5, y: 0.6}
+  - {x: 0.9, y: 0.9}
+  - {x: 0.9, y: 0.1}
+  - {x: 0.1, y: 0.9}
+  - {x: 0.5, y: 0.1}
+  crack_density: 40
+  range: 0.05
+  offset: 0.05
 --- !u!1001 &583244332
 PrefabInstance:
   m_ObjectHideFlags: 0
